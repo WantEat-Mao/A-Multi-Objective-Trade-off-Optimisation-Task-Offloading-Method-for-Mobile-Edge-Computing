@@ -9,7 +9,7 @@ class Config(object):
 
     # Energy consumption settings
     UE_ENERGY_STATE  = [0.25, 0.50, 0.75]   # Ultra-power-saving mode, Power-saving mode, Performance mode
-    CHANNEL_STATE    = [0.50, 0.75 , 1.0]   # 信道传输质量
+    CHANNEL_STATE    = [0.50, 0.75 , 1.0]   
     UE_COMP_ENERGY   = 2                    # Computation Power of Mobile Device
     UE_TRAN_ENERGY   = 2.3                  # Transmission Power of Mobile Device
     UE_IDLE_ENERGY   = 0.1                  # Standby power of Mobile Device
